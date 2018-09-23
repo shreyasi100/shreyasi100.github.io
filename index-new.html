@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<style>
+body,h1 {font-family: "Raleway", Arial, sans-serif}
+h1 {letter-spacing: 6px}
+.w3-row-padding img {margin-bottom: 12px}
+</style>
+
+<body>
+<!-- Navbar -->
+<div class="w3-top">
+    <div class="w3-bar w3-black w3-card">
+      <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+      <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">WEB DEVELOPMENT </a>
+      <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">DATA SCIENCE</a>
+      <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">INTERNSHIPS</a>
+      <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT ME</a>
+      
+      <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+    </div>
+  </div>
+  
+  <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+  <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+  </div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+
+<!-- Header -->
+<header class="w3-panel w3-center " style="padding:128px 16px">
+  <img src="images/me.jpg" style="height:15%; width:15%;" class="img-thumbnail" ><br><br>
+  <h1 class="w3-xlarge"> WEB DEVELOPER, DATA SCIENTIST AND GRAD STUDENT </h1>
+  <h1>SHREYASI CHAUDHARY</h1>
+  
+  <div class="w3-padding-32">
+    <div class="w3-bar w3-border">
+      <a href="#" class="w3-bar-item w3-button w3-light-grey">Web Development </a>
+      <a href="#" class="w3-bar-item w3-button">Data Science</a>
+    </div>
+  </div>
+</header>
+<!-- interships -->
+<h1 class="w3-padding-16 w3-center">INTERNSHIPS </h1>
+<div class="w3-row-padding" style="margin-bottom:128px" id="internships">
+        <div class="w3-row-padding">
+            <div class="w3-half w3-container w3-center w3-margin-bottom">
+                <img src="images/GE.png" alt="Norway" style="width:60%; height:300px;" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                <h3> GE Digital </h3>
+                <p> <b> Digital Technology Intern </b> </p>
+                <button onclick="myFunction('Demo1')" class="w3-btn w3-black w3-left-align">Details</button>
+                <div id="Demo1" class="w3-hide w3-animate-zoom w3-padding-16">
+                    <ul>
+                        <li class=" w3-left-align"> 
+                            Reduced cycle time of feasibility assessment of wind turbines by 80% by building secure microservices on
+                                predix using python to automate current process. Technologies used: Python, Flask, SQLite, PostgreSQL
+                        </li>
+                        <li class=" w3-left-align">
+                                Performed unit testing for python based microservices.
+                        </li>
+                        <li class="w3-left-align">
+                                Developed frontend and backend of a website for clients to view and modify configurations of wind turbine.
+                                Technologies used: Java Spring Boot, Polymer, Node.js, PostgreSQL
+                        </li>
+                        <li class="w3-left-align">
+                                Implemented security, role based access and assisted in UX design for the above mentioned website.
+                        </li>
+                        <li class=" w3-left-align">
+                                Actively involved in the process of gathering requirements from clients and translating it to system design.
+                        </li>
+                        <li class="w3-left-align">
+                                Researched and analyzed the services offered by New Relic and AppDynamics for selecting the most
+                        appropriate application performance management tool for various cloud microservices.L
+                        </li>
+                        <li class="w3-left-align">
+                                Learnt about and incorporated the best practices followed in software development in an Agile environment.
+                        </li>
+                       
+
+                    </ul>
+                   
+                </div>
+
+
+            </div>
+        </div>
+        <div class="w3-half w3-container w3-margin-bottom">
+            <img src="images/big_data.jpg" alt="Norway" style="width:60%; height:300px;" class="w3-hover-opacity ">
+                <div class="w3-container w3-white">
+                <h3> Impetus Infotech  </h3>
+                <p> <b> Summer Intern </b> </p>
+                <button onclick="myFunction('Demo2')" class="w3-btn w3-black w3-left-align">Details</button>
+                <div id="Demo2" class="w3-hide w3-animate-zoom w3-padding-16">
+                    <ul>
+                        <li class=" w3-left-align"> 
+                            Learnt about storing and processing of large scale data and received training on various big data technologies.
+                        </li>
+                        <li class=" w3-left-align">
+                                Analyzed large datasets using Hadoop, Hive and HBase to complete proof of concepts.
+                        </li>
+                        
+
+                    </ul>
+                   
+                </div>
+            </div>
+        </div>
+        </div>
+</div>
+
+<!-- Photo Grid -->
+<h1 class="w3-padding-8 w3-center">WEB DEVELOPMENT </h1>
+<div class="w3-padding-32 w3-center">
+  <div class="w3-bar w3-border ">
+    <a href="#webProjects" class="w3-bar-item w3-button w3-light-grey"> Projects  </a>
+    <a href="#webSkills" class="w3-bar-item w3-button"> Skills </a>
+    <a href="#" class="w3-bar-item w3-button w3-light-grey"> Internships </a>
+    <a href="#" class="w3-bar-item w3-button"> Coursework </a>
+  </div>
+</div>
+
+<div class="w3-row-padding" style="margin-bottom:128px" id="webProjects">
+    <div class="w3-row-padding">
+        <div class="w3-third w3-container w3-margin-bottom">
+          <img src="images/social-networking.jpg"  alt="Norway" style="width:80%; height:300px;" class="w3-hover-opacity w3-center">
+          <div class="w3-container w3-white">
+            <h3> Social Networking  </h3>
+            <p> Created a social networking website with news feed, chat and profile
+              view statistics.</p>
+          </div>
+        </div>
+        <div class="w3-third w3-container w3-margin-bottom">
+            <img src="images/database.jpg"  alt="Norway" style="width:100%; height:300px;" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+              <h3> Generation of reports based on spoken Natural language queries </h3>
+              <p>Collaborated with a team of 9
+                students to create a website allowing users to query relational databases and generate reports summarizing
+                results by speaking out queries in simple English.</p>
+            </div>
+          </div>
+        
+        <div class="w3-third w3-container w3-margin-bottom">
+            <img src="images/coachTheSpeaker.png" alt="Norway" style="width:80%; height:300px;" class="w3-hover-opacity w3-center">
+            <div class="w3-container w3-white">
+              <h3> Coach The Speaker </h3>
+              <p>Developed a machine learning model to automatically evaluate a lecture or
+                speech based on 7 parameters. It provides users scores and personalized suggestions to make given lecture
+                or speech more interesting to audience.</p>
+            </div>
+          </div>
+      </div>
+</div>
+<div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/DBaas.jpg" alt="Norway" style="width:100%; height:300px;" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <h3> Mini Database as a Service  </h3>
+        <p> Implemented a mini database as a service using Dockers </p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+        <img src="images/portfolio_mom.jpg" alt="Norway" style="width:80%; height:300px;" class="w3-hover-opacity w3-center">
+        <div class="w3-container w3-white">
+          <h3> Dr. Rashmi's Personal Webiste  </h3>
+          <p> A web portfolio for Dr. Rashmi Chaudhary </p>
+        </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+        <img src="images/van-gogh.jpeg" alt="Norway" style="width:80%; height:300px;" class="w3-hover-opacity w3-center">
+        <div class="w3-container w3-white">
+          <h3> Works of Vincent Van Gogh  </h3>
+          <p> A website displaying the life and works of the famous arttist Vincent Van Gogh </p>
+        </div>
+    </div>
+</div>
+<!-- Web skills  -->
+
+<div class="w3-container w3-black w3-center w3-text-light-grey w3-padding-32" id="webSkills">
+        <div class="w3-padding-8 w3-center"> <h1> Web Development Skills </h1> </div>
+        <div class="w3-content w3-justify" style="max-width:600px">
+          <hr class="w3-opacity">
+          <p class="w3-wide">HTML, CSS, JavaScript </p>
+          <div class="w3-white">
+            <div class="w3-container w3-padding-small w3-center w3-grey" style="width:95%">95%</div>
+          </div>
+          <p class="w3-wide"> Bootstarp, JQuery, Polymer </p>
+          <div class="w3-white">
+            <div class="w3-container w3-padding-small w3-center w3-grey" style="width:90%">90%</div>
+          </div>
+          <p class="w3-wide"> PHP </p>
+          <div class="w3-white">
+            <div class="w3-container w3-padding-small w3-center w3-grey" style="width:80%">80%</div>
+          </div>
+          <p class="w3-wide">Python</p>
+          <div class="w3-white">
+            <div class="w3-container w3-padding-small w3-center w3-grey" style="width:85%">85%</div>
+          </div>
+          <p class="w3-wide">Java</p>
+          <div class="w3-white">
+            <div class="w3-container w3-padding-small w3-center w3-grey" style="width:80%">80%</div>
+          </div>
+          <p class="w3-wide">SQL</p>
+          <div class="w3-white">
+            <div class="w3-container w3-padding-small w3-center w3-grey" style="width:70%">70%</div>
+          </div>
+          <p class="w3-wide">iOS Application Development </p>
+          <div class="w3-white">
+            <div class="w3-container w3-padding-small w3-center w3-grey" style="width:30%">30%</div>
+          </div>        
+        </div>
+</div>
+<!-- Web skills  -->
+
+<div class="w3-container w3-black w3-center w3-text-light-grey w3-padding-32" id="webCoursework">
+        <div class="w3-padding-8 w3-center"> <h1> Relevant Coursework </h1> </div>
+        <div class="table-responsive w3-center " >
+            <table class="table table-borderless">
+                <tbody>
+                    <tr>
+                        <td> Web Development 1 & 2</td>
+                        <td> Object Oriented programming in Java </td>
+                        <td> Cloud Computing </td>
+                    </tr>
+                    <tr>
+                        <td>Computer Networks </td>
+                        <td>Operating Systems </td>
+                        <td> Algorithms </td>
+                    </tr>
+                    <tr>
+                        <td>Data Structures </td>
+                        <td>Software Engineering </td>
+                        <td> Unix System Programming</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+</div>
+
+
+
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-large"> 
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+<script>
+        function myFunction(id) {
+            var x = document.getElementById(id);
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else { 
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+</script>
+</body>
+
+</html>
