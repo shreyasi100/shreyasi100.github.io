@@ -25,12 +25,12 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <style>
-body,h1 {font-family: "Raleway", Arial, sans-serif}
+body,h1 { font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif}
 h1 {letter-spacing: 6px}
 .w3-row-padding img {margin-bottom: 12px}
 </style>
 
-<body>
+<body >
 <!-- Navbar -->
 <div class="w3-top">
     <div class="w3-bar w3-black w3-card">
@@ -58,15 +58,16 @@ h1 {letter-spacing: 6px}
 <div class="w3-content" style="max-width:1500px">
 
 <!-- Header -->
-<header class="w3-panel w3-center " style="padding:128px 16px">
+<header class="w3-panel w3-center " style="padding:128px 16px; " >
   <img src="images/me.jpg"  class="responsive img-thumbnail" ><br><br>
   
-  <h1>SHREYASI CHAUDHARY</h1>
+  <h1 style="color:#ff6600 ">SHREYASI CHAUDHARY</h1>
+  <h3> Aspiring </h3>
   <h1> 
         <span
            class="txt-rotate"
            data-period="2000"
-           data-rotate='[ "Data Scientist", "Web Developer", "Grad student at USC" ]'></span>
+           data-rotate='[ "Data Scientist", "Web Developer" ]'></span>
   </h1>
   <div class="w3-padding-32">
     <div class="w3-bar w3-border">
@@ -76,62 +77,59 @@ h1 {letter-spacing: 6px}
   </div>
 </header>
 <!-- interships -->
-<h1 class="w3-padding-16 w3-center" id="internships">INTERNSHIPS </h1>
-<div class="w3-row-padding" style="margin-bottom:128px" >
-        <div class="w3-row-padding">
-            <div class="w3-half w3-container w3-center w3-margin-bottom">
-                <img src="images/GE.png" alt="Norway" style="width:60%; height:300px;" class="w3-hover-opacity">
-                <div class="w3-container w3-white">
-                <h3> GE Digital </h3>
-                <p> <b> Digital Technology Intern </b> </p>
-                <button onclick="myFunction('Demo1')" class="w3-btn w3-black w3-left-align">Details</button>
-                <div id="Demo1" class="w3-hide w3-animate-zoom w3-padding-16">
-                    <ul>
-                        <li class=" w3-left-align"> 
+
+
+
+<div class="w3-panel w3-center w3-white" style="margin-bottom:128px" >
+    <h1 class="w3-padding-16 w3-center" id="internships">INTERNSHIPS </h1> 
+    <div class="w3-container ">
+        <h3 style="font-weight: bold;"> GE Digital </h3>
+            <p style="color:gray"> Digital Technology Intern  </p> 
+            <p style="color:gray"> January 2018 - May 2018  </p> 
+            <button onclick="myFunction('Demo1')" class="w3-btn w3-black w3-left-align" >Details</button>
+            <div id="Demo1" class="w3-hide w3-animate-zoom w3-padding-16">
+                <ul>
+                    <li > 
                             Reduced cycle time of feasibility assessment of wind turbines by 80% by building secure microservices on
                                 predix using python to automate current process. Technologies used: Python, Flask, SQLite, PostgreSQL
                         </li>
-                        <li class=" w3-left-align">
+                        <li>
                                 Performed unit testing for python based microservices.
                         </li>
-                        <li class="w3-left-align">
+                        <li>
                                 Developed frontend and backend of a website for clients to view and modify configurations of wind turbine.
                                 Technologies used: Java Spring Boot, Polymer, Node.js, PostgreSQL
                         </li>
-                        <li class="w3-left-align">
+                        <li>
                                 Implemented security, role based access and assisted in UX design for the above mentioned website.
                         </li>
-                        <li class=" w3-left-align">
+                        <li >
                                 Actively involved in the process of gathering requirements from clients and translating it to system design.
                         </li>
-                        <li class="w3-left-align">
+                        <li >
                                 Researched and analyzed the services offered by New Relic and AppDynamics for selecting the most
                         appropriate application performance management tool for various cloud microservices.L
                         </li>
-                        <li class="w3-left-align">
+                        <li>
                                 Learnt about and incorporated the best practices followed in software development in an Agile environment.
                         </li>
                        
 
-                    </ul>
+                </ul>
                    
-                </div>
-
-
             </div>
-        </div>
-        <div class="w3-half w3-container w3-margin-bottom">
-            <img src="images/big_data.jpg" alt="Norway" style="width:60%; height:300px;" class="w3-hover-opacity ">
-                <div class="w3-container w3-white">
-                <h3> Impetus Infotech  </h3>
-                <p> <b> Summer Intern </b> </p>
-                <button onclick="myFunction('Demo2')" class="w3-btn w3-black w3-left-align">Details</button>
+
+
+            <h3 style="font-weight: bold;"> Impetus Infotech  </h3>
+                <p style="color:gray"> Summer Intern </p> 
+                <p style="color:gray"> May 2016 - July 2016  </p> 
+                <button onclick="myFunction('Demo2')" class="w3-btn w3-black w3-left-align" >Details</button>
                 <div id="Demo2" class="w3-hide w3-animate-zoom w3-padding-16">
                     <ul>
-                        <li class=" w3-left-align"> 
+                        <li > 
                             Learnt about storing and processing of large scale data and received training on various big data technologies.
                         </li>
-                        <li class=" w3-left-align">
+                        <li >
                                 Analyzed large datasets using Hadoop, Hive and HBase to complete proof of concepts.
                         </li>
                         
@@ -139,11 +137,10 @@ h1 {letter-spacing: 6px}
                     </ul>
                    
                 </div>
-            </div>
-        </div>
+    </div>
+</div>
         </div>
 </div>
-
 <!-- Web Dev -->
 <h1 class="w3-padding-8 w3-center" id="webProjects" >WEB DEVELOPMENT </h1>
 <div class="w3-padding-32 w3-center">
@@ -401,7 +398,7 @@ h1 {letter-spacing: 6px}
         <div class="w3-content w3-justify" style="max-width:600px">
 
         <p>
-            I am currectly pursuing my master's in Data Informatics at University of Southern California. My interest lies in the feild of 
+            Hello! I am currectly pursuing my master's in Data Informatics at University of Southern California. My interest lies in the feild of 
             Data Science and Web Development. I have worked on multiple projects in these areas and have studied these subjects as part of my currriculum. 
             I have also intered at GE Digital and Inpetus Infotech. I'm actively looking for summer internships for Summer 2019. 
             Please reach out to me for any exciting opportunities. 
